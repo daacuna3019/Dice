@@ -17,7 +17,7 @@
       }
       textSize(100);
       fill(255);
-      text("Total " + sum, 2200, 2100);
+      text("Total " + sum, 1000, 2100);
       fill(67);
   }
   void mousePressed()
