@@ -1,6 +1,6 @@
        void setup()
   {
-    size(4000, 2200);
+    size(10000, 2200);
       noLoop();
   }
   void draw()
@@ -8,7 +8,7 @@
       int sum = 0;
       background(67);
       for(int y = 0; y < 2000; y+=50){
-        for(int x = 0; x < 4000; x += 50){
+        for(int x = 0; x < 10000; x += 50){
           Die bob = new Die(x, y);
           bob.show();
           bob.roll();
