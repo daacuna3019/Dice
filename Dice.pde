@@ -1,14 +1,14 @@
        void setup()
   {
-    size(10000, 2200);
+    size(2000, 20200);
       noLoop();
   }
   void draw()
   {
       int sum = 0;
       background(67);
-      for(int y = 0; y < 2000; y+=50){
-        for(int x = 0; x < 10000; x += 50){
+      for(int y = 200; y < 20000; y+=50){
+        for(int x = 0; x < 2000; x += 50){
           Die bob = new Die(x, y);
           bob.show();
           bob.roll();
@@ -17,7 +17,7 @@
       }
       textSize(100);
       fill(255);
-      text("Total " + sum, 1000, 2100);
+      text("Total " + sum, 1000, 100);
       fill(67);
   }
   void mousePressed()
